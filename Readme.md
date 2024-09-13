@@ -44,6 +44,13 @@ docker run --rm -it \
 	jarvishaus/hp-scan
 ```
 
+## Configuration
+
+Options for scanning may be provided as environment variables:
+
+ * `MODE` ... Scan mode: gray, color or lineart
+ * `RESOLUTION` ... Scanning resolution in dpi
+
 <br>
 <br>
 
