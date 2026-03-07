@@ -38,9 +38,8 @@ Run this image with a volume mounted to the `/var/scan` and your device URI spec
 
 ```sh
 docker run --rm -it \
-	-v /run/dbus/system_bus_socket:/run/dbus/system_bus_socket \
 	-v ./consume:/var/scan \
-	-e DEVICE_URI=escl:https://192.168.0.1:443
+	-e DEVICE_URI=escl:https://192.168.0.1:443 \
 	jarvishaus/hp-scan
 ```
 
